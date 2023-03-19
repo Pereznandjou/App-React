@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__search input[type="text"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.navbar__search button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+
+
+.navbar__cart {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.navbar__cart i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar__cart-count {
+  background-color: #fff;
+  color: #333;
+  border-radius: 50%;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
+}
+
+.navbar__profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: auto;
+ 
+}
+
+.navbar__profile i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  
+}
+/* pour la site bar*/
+.left-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #333 !important;
+  color: #fff;
+  overflow: hidden;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-header span {
+  font-size: 18px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-list li:hover {
+  background-color: #444;
+}
+
